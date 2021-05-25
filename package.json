@@ -25,7 +25,7 @@
     "prepublish": "yarn format && yarn lint && yarn compile"
   },
   "devDependencies": {
-    "@fasteerjs/fasteer": "^3.0.1",
+    "@fasteerjs/fasteer": "^3.1.0",
     "@types/node": "^14.14.36",
     "@types/ws": "^7.4.4"
   },

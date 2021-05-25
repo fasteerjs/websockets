@@ -11,12 +11,13 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@fasteerjs/fasteer@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@fasteerjs/fasteer/-/fasteer-3.0.1.tgz#bab1beb642776c718cae3de246b0f6d2f9e65479"
-  integrity sha512-TQhfenKWsSAqERitpcJ1zIC6d1IGfD/UYVfwewuKmQOR8fTIY1KxTZ6NQsE5MIU6+EfqbHExxLktI8J9KQVP6A==
+"@fasteerjs/fasteer@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@fasteerjs/fasteer/-/fasteer-3.1.0.tgz#b4e7ab3392f10c7cfa9bd7b7b62c4a0fe0373d02"
+  integrity sha512-S8CDGIa459rgVOhAoPu3znnGRIoAUkjaBkIUerPtZmNijh7DGyIRUkdIE2CV8ZdWESsRnhyaPF4XkIJB1PyAtw==
   dependencies:
     chalk "^4.1.0"
+    eventemitter3 "^4.0.7"
     fastify "^3.8.0"
     fastify-cors "^5.0.0"
     fastify-helmet "^5.0.3"
@@ -25,6 +26,7 @@
     husky "^5.0.8"
     pinst "^2.1.4"
     winston "^3.3.3"
+    winston-transport "^4.4.0"
 
 "@fastify/forwarded@^1.0.0":
   version "1.0.0"
@@ -208,6 +210,11 @@ enabled@2.0.x:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/enabled/-/enabled-2.0.0.tgz#f9dd92ec2d6f4bbc0d5d1e64e21d61cd4665e7c2"
   integrity sha512-AKrN98kuwOzMIdAizXGI86UFBoo26CL21UM763y1h/GMSJ4/OHU9k2YlsmBpyScFo/wbLzWQJBMCW4+IO3/+OQ==
+
+eventemitter3@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 fast-decode-uri-component@^1.0.1:
   version "1.0.1"

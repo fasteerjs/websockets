@@ -1,1 +1,1 @@
-module.exports = require("@fasteerjs/fasteer/.prettierrc.json")
+module.exports = require("@fasteerjs/fasteer/.prettierrc.json");

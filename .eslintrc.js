@@ -1,1 +1,1 @@
-module.exports = require("@fasteerjs/fasteer/.eslintrc.json")
+module.exports = require("@fasteerjs/fasteer/.eslintrc.json");
