@@ -14,7 +14,7 @@ import {
   RouteShorthandMethod,
 } from "fastify";
 import { RouteGenericInterface } from "fastify/types/route";
-import { SocketStream, WebsocketPluginOptions } from "fastify-websocket";
+import { SocketStream, WebsocketPluginOptions } from "@fastify/websocket";
 import { FasteerInstance } from "@fasteerjs/fasteer";
 
 /**

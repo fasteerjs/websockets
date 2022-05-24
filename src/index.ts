@@ -1,5 +1,5 @@
 import { FasteerInstance } from "@fasteerjs/fasteer";
-import fastifyWebsocket from "fastify-websocket";
+import fastifyWebsocket from "@fastify/websocket";
 import { PluginOptions } from "./types";
 import { decorateWebsocket } from "./websocket";
 

@@ -1,4 +1,4 @@
-import { SocketStream } from "fastify-websocket";
+import { SocketStream } from "@fastify/websocket";
 import { WebsocketMiddleware } from "../types";
 import socketSend from "../utils/socketSend";
 

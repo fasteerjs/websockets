@@ -1,4 +1,4 @@
-import { SocketStream } from "fastify-websocket";
+import { SocketStream } from "@fastify/websocket";
 
 /**
  * Send a message to the socket. If it's an object, it automatically

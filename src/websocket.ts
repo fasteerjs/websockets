@@ -6,7 +6,7 @@ import {
   WebsocketMiddlewarePromise,
   WebSocketRouteOptions,
 } from "./types";
-import { SocketStream } from "fastify-websocket";
+import { SocketStream } from "@fastify/websocket";
 import util from "util";
 
 const decorateWebsocket = (
